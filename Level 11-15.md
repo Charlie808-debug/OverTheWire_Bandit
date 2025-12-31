@@ -121,20 +121,20 @@ openssl s_client
 
 ---
 ### **Key Learning**
-**-Recognizing & decoding common encodings**
+**- Recognizing & decoding common encodings**
 Learned to identify when information is wrapped in Base64 or ROT13 and how to decode it reliably using command-line tools instead of external sites.
 
-**-Handling chained transformations**
+**- Handling chained transformations**
 Broke down multi-layered compression and encoding step by step using file to guide decisions — building patience and systematic problem-solving for real forensic tasks.
 
-**-Interacting with SSH beyond passwords**
+**- Interacting with SSH beyond passwords**
 Used private keys and permission hardening (chmod 600) to authenticate securely — reinforcing how authentication mechanisms work in Linux systems.
 
-**-Understanding tool behavior through permissions**
+**- Understanding tool behavior through permissions**
 Discovered that SSH rejects private keys with permissive access, highlighting how security tools enforce best practices instead of relying on user memory.
 
-**-Communicating with network services directly**
+**- Communicating with network services directly**
 Sent data into listening services using nc and openssl s_client, preparing for later scenarios like banner grabbing, protocol testing, and custom exploit delivery.
 
-**-Developing protocol instincts**
+**- Developing protocol instincts**
 Realized that encoding, compression, and transport are separate layers — and peeling them in the correct order is often the true challenge in security puzzles.
